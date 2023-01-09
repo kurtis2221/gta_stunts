@@ -4,4 +4,4 @@
 Map converter for GTA: San Andreas.
 
 ## Usage
-[See the readme file](gta_stunts/bin/Debug/readme.txt)
+[See the readme file](gta_stunts/bin/Debug/readmeEN.txt)
