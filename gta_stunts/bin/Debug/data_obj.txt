@@ -1,0 +1,179 @@
+01, st_fini, 0,   0, 0, st_road, 0
+B4, st_fini, 270, 0, 0, st_road, 270
+B5, st_fini, 90,  0, 0, st_road, 90
+B3, st_fini, 180, 0, 0, st_road, 180
+86, st_fini, 0,   0, 0, st_road2,0
+88, st_fini, 270, 0, 0, st_road2,270
+89, st_fini, 90,  0, 0, st_road2,90
+87, st_fini, 180, 0, 0, st_road2,180
+93, st_fini, 0,   0, 0, st_road3,0
+95, st_fini, 270, 0, 0, st_road3,270
+96, st_fini, 90,  0, 0, st_road3,90
+94, st_fini, 180, 0, 0, st_road3,180
+4B, st_offr, 180, 0, 0
+4C, st_offr, 90,  0, 0
+4D, st_offr, 0,   0, 0
+4E, st_offr, 270, 0, 0
+4F, st_offl, 180, 0, 0
+50, st_offl, 90,  0, 0
+51, st_offl, 0,   0, 0
+52, st_offl, 270, 0, 0
+7E, st_offr2,180, 0, 0
+7F, st_offr2,90,  0, 0
+80, st_offr2,0,   0, 0
+81, st_offr2,270, 0, 0
+82, st_offl2,180, 0, 0
+83, st_offl2,90,  0, 0
+84, st_offl2,0,   0, 0
+85, st_offl2,270, 0, 0
+8B, st_offr3,180, 0, 0
+8C, st_offr3,90,  0, 0
+8D, st_offr3,0,   0, 0
+8E, st_offr3,270, 0, 0
+8F, st_offl3,180, 0, 0
+90, st_offl3,90,  0, 0
+91, st_offl3,0,   0, 0
+92, st_offl3,270, 0, 0
+04, st_road, 0,   0, 0
+05, st_road, 90,  0, 0
+06, st_turn, 180, 0, 0
+07, st_turn, 270, 0, 0
+08, st_turn, 90,  0, 0
+09, st_turn, 0,   0, 0
+0A, st_stur, 180, 25.7, -25.7
+0B, st_stur, 270, 25.7, -25.7
+0C, st_stur, 90,  25.7, -25.7
+0D, st_stur, 0,   25.7, -25.7
+14, st_stur2,180, 25.7, -25.7
+15, st_stur2,270, 25.7, -25.7
+16, st_stur2,90,  25.7, -25.7
+17, st_stur2,0,   25.7, -25.7
+1E, st_stur3,180, 25.7, -25.7
+1F, st_stur3,270, 25.7, -25.7
+20, st_stur3,90,  25.7, -25.7
+21, st_stur3,0,   25.7, -25.7
+69, st_sest, 180, 25.7, -25.7
+6A, st_sest, 270, 25.7, -25.7
+6B, st_sest, 90,  25.7, -25.7
+6C, st_sest, 0,   25.7, -25.7
+75, st_rco0, 180, 25.7, -25.7
+76, st_rco0, 90,  25.7, -25.7
+77, st_rco0, 0,   25.7, -25.7
+78, st_rco0, 270, 25.7, -25.7
+79, st_lco0, 180, 25.7, -25.7
+7A, st_lco0, 90,  25.7, -25.7
+7B, st_lco0, 0,   25.7, -25.7
+7C, st_lco0, 270, 25.7, -25.7
+0E, st_road2,0,   0, 0
+0F, st_road2,90,  0, 0
+10, st_turn2,180, 0, 0
+11, st_turn2,270, 0, 0
+12, st_turn2,90,  0, 0
+13, st_turn2,0,   0, 0
+1A, st_turn3,180, 0, 0
+1B, st_turn3,270, 0, 0
+1C, st_turn3,90,  0, 0
+1D, st_turn3,0,   0, 0
+18, st_road3,0,   0, 0
+19, st_road3,90,  0, 0
+22, st_elrd, 0,   0, 0
+23, st_elrd, 90,  0, 0
+24, st_ramp, 270, 0, 0
+25, st_ramp, 90,  0, 0
+26, st_ramp, 180, 0, 0
+27, st_ramp, 0,   0, 0
+28, st_lban, 180, 0, 0
+29, st_lban, 270, 0, 0
+2A, st_lban, 0,   0, 0
+2B, st_lban, 90,  0, 0
+2C, st_rban, 180, 0, 0
+2D, st_rban, 270, 0, 0
+2E, st_rban, 0,   0, 0
+2F, st_rban, 90,  0, 0
+30, st_bank, 180, 0, 0
+31, st_bank, 0,   0, 0
+32, st_bank, 270, 0, 0
+33, st_bank, 90,  0, 0
+34, st_btur, 180, 25.7, -25.7
+35, st_btur, 270, 25.7, -25.7
+36, st_btur, 90,  25.7, -25.7
+37, st_btur, 0,   25.7, -25.7
+38, st_brid, 270, 0, 0
+39, st_brid, 90,  0, 0
+3A, st_brid, 180, 0, 0
+3B, st_brid, 0,   0, 0
+3C, st_chi1, 0,   25.7, -25.7
+3D, st_chi2, 90,  25.7, -25.7
+3E, st_chi2, 0,   25.7, -25.7
+3F, st_chi1, 90,  25.7, -25.7
+40, st_loop, 0,   0, -25.7
+41, st_loop, 90,  25.7, 0
+42, st_tunn, 0,   0, 0
+43, st_tunn, 90,  0, 0
+44, st_pipe, 0,   0, 0
+45, st_pipe, 90,  0, 0
+46, st_spip, 180, 0, 0
+47, st_spip, 0,   0, 0
+48, st_spip, 90,  0, 0
+49, st_spip, 270, 0, 0
+4A, st_inte, 0,   0, 0
+7D, st_inte2,0,   0, 0
+8A, st_inte3,0,   0, 0
+53, st_hpip, 0,   0, 0
+54, st_hpip, 90,  0, 0
+55, st_vcor, 0,   0, -25.7
+56, st_vcor, 90,  25.7, 0
+57, st_sofr, 180, 25.7, -25.7
+58, st_sofr, 90,  25.7, -25.7
+59, st_sofr, 0,   25.7, -25.7
+5A, st_sofr, 270, 25.7, -25.7
+5B, st_sofl, 180, 25.7, -25.7
+5C, st_sofl, 90,  25.7, -25.7
+5D, st_sofl, 0,   25.7, -25.7
+5E, st_sofl, 270, 25.7, -25.7
+5F, st_sram, 270, 0, 0
+60, st_sram, 90,  0, 0
+61, st_sram, 180, 0, 0
+62, st_sram, 0,   0, 0
+63, st_selr, 0,   0, 0
+64, st_selr, 90,  0, 0
+65, st_elsp, 0,   0, 0, st_road, 90
+66, st_elsp, 90,  0, 0, st_road, 0
+67, st_elsp, 0,   0, 0
+68, st_elsp, 90,  0, 0
+6D, st_wroa, 0,   0, 0
+6E, st_wroa, 90,  0, 0
+6F, st_gwro, 180, 0, 0
+70, st_gwro, 270, 0, 0
+71, st_gwro, 0,   0, 0
+72, st_gwro, 90,  0, 0
+73, st_barr, 0,   0, 0, st_road, 0
+74, st_barr, 90,  0, 0, st_road, 90
+97, st_palm, 0,   0, 0
+98, st_cact, 0,   0, 0
+99, st_tree, 0,   0, 0
+9A, st_tenn, 0,   0, 0
+9B, st_gass, 180, 0, 0
+9C, st_gass, 0,   0, 0
+9D, st_gass, 90,  0, 0
+9E, st_gass, 270, 0, 0
+9F, st_barn, 180, 0, 0
+A0, st_barn, 0,   0, 0
+A1, st_barn, 90,  0, 0
+A2, st_barn, 270, 0, 0
+A3, st_offi, 180, 0, 0
+A4, st_offi, 0,   0, 0
+A5, st_offi, 90,  0, 0
+A6, st_offi, 270, 0, 0
+A7, st_wind, 180, 0, 0
+A8, st_wind, 0,   0, 0
+A9, st_wind, 90,  0, 0
+AA, st_wind, 270, 0, 0
+AB, st_boat, 180, 0, 0
+AC, st_boat, 0,   0, 0
+AD, st_boat, 90,  0, 0
+AE, st_boat, 270, 0, 0
+AF, st_rest, 180, 0, 0
+B0, st_rest, 0,   0, 0
+B1, st_rest, 90,  0, 0
+B2, st_rest, 270, 0, 0

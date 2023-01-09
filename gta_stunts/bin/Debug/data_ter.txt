@@ -1,0 +1,19 @@
+00, st_terr, 0,   0
+01, st_lake, 0,   0
+02, st_lakc, 270, 0
+03, st_lakc, 180, 0
+04, st_lakc, 90,  0
+05, st_lakc, 0,   0
+06, st_high, 0,   22.5
+07, st_goup, 180, 0, 1
+08, st_goup, 90,  0, 1
+09, st_goup, 0,   0, 1
+0A, st_goup, 270, 0, 1
+0B, st_gouo, 90,  0
+0C, st_gouo, 0,   0
+0D, st_gouo, 270, 0
+0E, st_gouo, 180, 0
+0F, st_goui, 90,  0
+10, st_goui, 0,   0
+11, st_goui, 270, 0
+12, st_goui, 180, 0

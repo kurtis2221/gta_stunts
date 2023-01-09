@@ -1,0 +1,6 @@
+st_road, st_rdup, 1
+st_road2,st_rdup2,1
+st_road3,st_rdup3,1
+st_brid, st_elsp, 0
+st_sram, st_elsp, 0
+st_ramp, st_elsp, 0
