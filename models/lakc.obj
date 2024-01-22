@@ -1,0 +1,12 @@
+# stressed - Stunts/4D [Sports] Driving resource editor
+# https://github.com/dstien/gameformats/tree/master/stunts/stressed
+# Shape "lakc" exported from file "GAME2.P3S"
+
+mtllib stunts.mtl
+
+v    -514.0       0.0    -514.0
+v    -514.0       0.0     514.0
+v     514.0       0.0    -514.0
+
+usemtl Stunts100
+f   1   2   3
