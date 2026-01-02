@@ -44,6 +44,7 @@
             this.ofd = new System.Windows.Forms.OpenFileDialog();
             this.bt_save = new System.Windows.Forms.Button();
             this.bt_about = new System.Windows.Forms.Button();
+            this.ch_vc = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // bt_convert
@@ -155,7 +156,7 @@
             // 
             // ofd
             // 
-            this.ofd.DefaultExt = "*.trk|TRK files";
+            this.ofd.Filter = "TRK files|*.trk";
             // 
             // bt_save
             // 
@@ -177,11 +178,23 @@
             this.bt_about.UseVisualStyleBackColor = true;
             this.bt_about.Click += new System.EventHandler(this.bt_about_Click);
             // 
+            // ch_vc
+            // 
+            this.ch_vc.AutoSize = true;
+            this.ch_vc.Enabled = false;
+            this.ch_vc.Location = new System.Drawing.Point(12, 42);
+            this.ch_vc.Name = "ch_vc";
+            this.ch_vc.Size = new System.Drawing.Size(67, 17);
+            this.ch_vc.TabIndex = 9;
+            this.ch_vc.Text = "Vice City";
+            this.ch_vc.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(394, 271);
+            this.Controls.Add(this.ch_vc);
             this.Controls.Add(this.bt_about);
             this.Controls.Add(this.bt_save);
             this.Controls.Add(this.tb_road);
@@ -201,7 +214,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GTA: San Andreas Stunts Tool";
+            this.Text = "GTA: VC/SA Stunts Tool";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,6 +238,7 @@
         private System.Windows.Forms.OpenFileDialog ofd;
         private System.Windows.Forms.Button bt_save;
         private System.Windows.Forms.Button bt_about;
+        private System.Windows.Forms.CheckBox ch_vc;
     }
 }
 

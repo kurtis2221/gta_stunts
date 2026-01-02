@@ -44,8 +44,13 @@ namespace gta_stunts
         private const string file_ter = "data_ter.txt";
         private const string file_obj = "data_obj.txt";
         private const string file_cha = "data_cha.txt";
-        private const string file_ide = "CUSTOM.IDE";
-        private const string file_ipl = "SAMP.ipl";
+        private const string sa_file_ide = "CUSTOM.IDE";
+        private const string sa_file_ipl = "SAMP.ipl";
+        private const string vc_file_ide = "stunts.ide";
+        private const string vc_file_ipl = "stunts.ipl";
+
+        private string file_ide;
+        private string file_ipl;
 
         private static char[] file_delimiter = { ',' };
 
@@ -85,6 +90,19 @@ namespace gta_stunts
             //
             cfg_controls = new Control[] { tb_fini, tb_x, tb_y, tb_z, tb_road };
             ofd.InitialDirectory = Environment.CurrentDirectory;
+            //Check for IDE file
+            if (File.Exists(vc_file_ide))
+            {
+                file_ide = vc_file_ide;
+                file_ipl = vc_file_ipl;
+                ch_vc.Checked = true;
+            }
+            else
+            {
+                file_ide = sa_file_ide;
+                file_ipl = sa_file_ipl;
+                ch_vc.Checked = false;
+            }
             //Data load
             LoadDataCfg();
             LoadDataTer();
@@ -252,6 +270,7 @@ namespace gta_stunts
         //Generate map
         private void ConvertTRK(string fname)
         {
+            string ipl_line_format = ch_vc.Checked ? "{0}, {1}, 0, {2}, {3}, {4}, 1, 1, 1, {5}" : "{0}, {1}, 0, {2}, {3}, {4}, {5}, -1";
             try
             {
                 bool finish_found = false;
@@ -322,7 +341,7 @@ namespace gta_stunts
                                     {
                                         string angles = quaterion[terr.angle];
                                         float offs = terr.offs;
-                                        sw.WriteLine("{0}, {1}, 0, {2}, {3}, {4}, {5}, -1",
+                                        sw.WriteLine(ipl_line_format,
                                             objectid,
                                             model,
                                             start_x + x * ELEM_OFFS,
@@ -353,7 +372,7 @@ namespace gta_stunts
                                         string angles = quaterion[obj.angle];
                                         float offs = obj.offs;
                                         float offs2 = obj.offs2;
-                                        sw.WriteLine("{0}, {1}, 0, {2}, {3}, {4}, {5}, -1",
+                                        sw.WriteLine(ipl_line_format,
                                             objectid,
                                             model,
                                             start_x + x * ELEM_OFFS + offs,
@@ -366,7 +385,7 @@ namespace gta_stunts
                                             if (stunts_data.TryGetValue(model, out objectid))
                                             {
                                                 angles = quaterion[obj.angle2];
-                                                sw.WriteLine("{0}, {1}, 0, {2}, {3}, {4}, {5}, -1",
+                                                sw.WriteLine(ipl_line_format,
                                                     objectid,
                                                     model,
                                                     start_x + x * ELEM_OFFS + offs,
@@ -395,7 +414,7 @@ namespace gta_stunts
                                 string objectid;
                                 if (stunts_data.TryGetValue(model, out objectid))
                                 {
-                                    sw.WriteLine("{0}, {1}, 0, {2}, {3}, {4}, {5}, -1",
+                                    sw.WriteLine(ipl_line_format,
                                         objectid,
                                         model,
                                         start_x + x * ELEM_OFFS,
@@ -440,7 +459,7 @@ namespace gta_stunts
                                 }
                                 if (stunts_data.TryGetValue(model, out objectid))
                                 {
-                                    sw.WriteLine("{0}, {1}, 0, {2}, {3}, {4}, {5}, -1",
+                                    sw.WriteLine(ipl_line_format,
                                         objectid,
                                         model,
                                         start_x + x * ELEM_OFFS,
